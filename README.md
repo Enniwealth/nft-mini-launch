@@ -1,12 +1,11 @@
 # Candy Machine V2 Frontend
 
-This is a barebones implementation of Candy Machine V2 frontend, intended for users who want to quickly get started selling Solana NFT's. Some code has been ported from the Fair Launch Protocol frontend in the Metaplex repo. This has been tested with Candy Machine programs on both devnet and mainnet-beta.
 
 The app was built using Svelte + Vite and uses TailwindCSS for styles.
 
 ## Getting started
 
-### Rename the .env.example file to .env and populate the following environment variables:
+### Populate the following environment variables:
 
 Required:
 
