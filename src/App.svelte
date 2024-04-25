@@ -16,9 +16,9 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Shapes";
-  const DESCRTIPTION = "A collection of shapes on the blockchain";
-  const HEADER_TITLE = "shapes.xyz";
+  const TITLE = "Wind Scraper";
+  const DESCRTIPTION = "A collection of butterfles on the blockchain";
+  const HEADER_TITLE = "windscraper.xyz";
   const HEADER_LINK = "https://solarare.com";
   // Your image or GIF needs to be in the /public folder for this to work
   const IMAGE_LINK = "/example.gif";
