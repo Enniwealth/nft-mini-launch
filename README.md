@@ -1,6 +1,6 @@
-# Candy Machine V2 Frontend
+# Wind Scraper 
 
-
+Wind scraper is an NFT minting and collectio site.
 The app was built using Svelte + Vite and uses TailwindCSS for styles.
 
 ## Getting started
