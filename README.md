@@ -1,6 +1,6 @@
 # Wind Scraper 
 
-Wind scraper is an NFT minting and collectio site.
+Wind scraper is an NFT minting and collection site solely built on the solana blockchain.
 The app was built using Svelte + Vite and uses TailwindCSS for styles.
 
 ## Getting started
@@ -10,46 +10,48 @@ The app was built using Svelte + Vite and uses TailwindCSS for styles.
 Required:
 
 ```
-- VITE_APP_CANDY_MACHINE_ID=
-- VITE_APP_SOLANA_NETWORK=
-- VITE_APP_SOLANA_RPC_HOST=
+    VITE_APP_CANDY_MACHINE_ID=
+    VITE_APP_SOLANA_NETWORK=
+    VITE_APP_SOLANA_RPC_HOST=
+
 ```
 
 Optional:
 Populate with your Google Analytics Measurement ID (in the format G-XXXXXXXXXX)
 
 ```
-- VITE_APP_GOOGLE_ANALYTICS=
+    VITE_APP_GOOGLE_ANALYTICS=
 ```
 
 ### Example configuration
 Devnet:
 ```
-- VITE_APP_SOLANA_NETWORK=devnet
-- VITE_APP_SOLANA_RPC_HOST=https://explorer-api.devnet.solana.com
+    VITE_APP_SOLANA_NETWORK=devnet
+    VITE_APP_SOLANA_RPC_HOST=https://explorer-api.devnet.solana.com
 ```
 
 Mainnet-beta:
 ```
-- VITE_APP_SOLANA_NETWORK=mainnet-beta
-- VITE_APP_SOLANA_RPC_HOST=https://api.mainnet-beta.solana.com
+    VITE_APP_SOLANA_NETWORK=mainnet-beta
+    VITE_APP_SOLANA_RPC_HOST=https://api.mainnet-beta.solana.com
 ```
 
 ### Edit the following variables in App.svelte to match your project:
 
 ```
-- TITLE
-- DESCRIPTION
-- IMAGE_LINK
-- HEADER_TITLE
-- HEADER_LINK
+    TITLE
+    DESCRIPTION
+    IMAGE_LINK
+    HEADER_TITLE
+    HEADER_LINK
+
 ```
 
 ### Then run:
 
 ```
-- yarn install
-- yarn dev
+    yarn install
+    yarn dev
 ```
 
 ## Features
