@@ -11,6 +11,7 @@
   import confetti from "canvas-confetti";
   import { LAMPORTS_PER_SOL } from "@solana/web3.js";
   import { onMount } from "svelte";
+  
 
   const txTimeout = 30000;
   const cluster = import.meta.env.VITE_APP_SOLANA_NETWORK?.toString();
@@ -48,13 +49,14 @@
         connection
       );
       // Check if user is whitelisted (ie. check if they have token)
-      if ($candyMachineState.state.whitelistMintSettings) {
-        $userState.isWhiteListed = await existsOwnerSPLToken(
-          $userState.walletPublicKey,
-          connection,
-          $candyMachineState.state.whitelistMintSettings?.mint
-        );
-      }
+      if ($candyMachineState.state?.whitelistMintSettings) {
+    $userState.isWhiteListed = await existsOwnerSPLToken(
+      $userState.walletPublicKey,
+      connection,
+      $candyMachineState.state.whitelistMintSettings?.mint
+    );
+  }
+
     }
   }
 

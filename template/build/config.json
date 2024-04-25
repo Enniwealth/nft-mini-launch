@@ -4,7 +4,6 @@
   "symbol": "WS",
   "sellerFeeBasisPoints": 1000,
   "isMutable": true,
-  "goLiveDate": "now",
   "isSequential": false,
   "creators": [
     {
@@ -12,6 +11,13 @@
       "share": 100
     }
   ],
+  "guards": {
+    "default": {
+      "startDate": {
+        "date": "2022-10-20 12:00:00 +0000"
+      }
+    }
+  },
   "uploadMethod": "bundlr",
   "ruleSet": null,
   "awsConfig": null,
@@ -20,6 +26,5 @@
   "shdwStorageAccount": null,
   "pinataConfig": null,
   "hiddenSettings": null,
-  "guards": null,
   "maxEditionSupply": null
 }

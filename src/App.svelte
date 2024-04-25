@@ -94,7 +94,7 @@
           connection
         );
         // If whitelist config populated, check if user is whitelisted (ie. check if they have token)
-        if ($candyMachineState.state.whitelistMintSettings) {
+        if ($candyMachineState?.state?.whitelistMintSettings) {
           $userState.isWhiteListed = await existsOwnerSPLToken(
             $userState.walletPublicKey,
             connection,
